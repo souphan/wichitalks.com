@@ -1,0 +1,43 @@
+body,
+html{
+  background: url('/assets/Slide2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+}
+.small{
+  width: 150px;
+  height: auto;
+  margin-bottom: 0;
+}
+.img-center .img-responsive {
+    margin: 0 auto;
+}
+#content{
+  background-image: none;
+  h1{
+    line-height: 2;
+    font-size: 60pt;
+    font-weight: 400;
+  }
+  h3{
+    line-height: 2.25;
+    font-size: 18pt;
+    font-weight: 300;
+  }
+  @media screen and (max-width: 600px){
+    h1{
+      font-size: 30pt;
+    }
+    h3{
+      line-height: 2;
+    }
+  }
+}
+#words{
+  width: 70%;
+  margin: 0 auto;
+}
